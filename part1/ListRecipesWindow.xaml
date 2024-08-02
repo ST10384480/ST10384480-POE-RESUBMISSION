@@ -1,0 +1,8 @@
+﻿<Window x:Class="RecipeApp.ListRecipesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="List Recipes" Height="400" Width="600">
+    <StackPanel>
+        <!-- UI for listing the recipes -->
+    </StackPanel>
+</Window>

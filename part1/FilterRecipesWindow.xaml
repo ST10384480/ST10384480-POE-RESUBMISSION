@@ -1,0 +1,13 @@
+﻿<Window x:Class="RecipeApp.FilterRecipesWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Filter Recipes" Height="400" Width="600">
+    <StackPanel Margin="10">
+        <TextBox Name="IngredientNameTextBox" Text="Enter Ingredient Name" Foreground="Gray" Margin="5" GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText"/>
+        <TextBox Name="FoodGroupTextBox" Text="Enter Food Group" Foreground="Gray" Margin="5" GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText"/>
+        <TextBox Name="MaxCaloriesTextBox" Text="Enter Maximum Calories" Foreground="Gray" Margin="5" GotFocus="RemovePlaceholderText" LostFocus="AddPlaceholderText"/>
+        <Button Content="Filter Recipes" Click="FilterRecipes_Click" Margin="5"/>
+        <ListBox Name="FilteredRecipesListBox" Height="200" Margin="5"/>
+    </StackPanel>
+</Window>
+    
